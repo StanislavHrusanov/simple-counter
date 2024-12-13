@@ -44,3 +44,31 @@
   background-color: #ff9900;
   transition: 0.3s;
 }
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+.input-container input {
+  width: 101px;
+  margin: 1px;
+  padding: 3px 6px;
+  border-radius: 3px;
+  border: none;
+}
+
+.input-container button {
+  width: 50px;
+  margin: 1px;
+  padding: 3px 6px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #ff9900;
+  transition: 0.3s;
+}
