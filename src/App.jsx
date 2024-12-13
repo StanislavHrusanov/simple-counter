@@ -35,7 +35,7 @@ function App() {
 
   function resetHandler() {
     setCounter(0);
-    setIsAnimated(false);
+    setIsAnimated(true);
   }
 
   function setCounterHandler(number) {
